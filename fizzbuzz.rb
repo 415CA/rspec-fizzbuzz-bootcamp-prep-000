@@ -9,8 +9,12 @@ def fizzbuzz(number)
     "Buzz"
   end
 
-elsif number % 3 == 0 && number % 5 == 0
-  "Fizzbuzz"
-end
+  elsif number % 3 == 0 && number % 5 == 0
+    "FizzBuzz"
+  end
 
+  elsif number % 3 == 0 && number % 5 == 0
+    "nil"
+  end
+  
 end

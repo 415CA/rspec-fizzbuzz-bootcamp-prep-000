@@ -4,13 +4,15 @@ def fizzbuzz(number)
   if number % 15 == 0
     "FizzBuzz"
   end
+
   elsif number % 5 == 0
     "Buzz"
   end
+
   elsif number % 3 == 0
     "Fizz"
   end
+
   else
     "nil"
-  end
 end
